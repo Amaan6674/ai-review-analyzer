@@ -54,19 +54,26 @@ The app uses a **LangGraph workflow** with conditional routing:
 
 ### Deploy to Streamlit Cloud (Free)
 
-1. Push your code to GitHub
+1. ✅ **Code is on GitHub** - Already done!
 2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your repo
-4. Add your `GROQ_API_KEY` in the Secrets section
-5. Deploy! 🎉
+3. Sign in with GitHub
+4. Click **"New app"**
+5. Configure:
+   - **Repository:** `Amaan6674/ai-review-analyzer`
+   - **Branch:** `main`
+   - **Main file path:** `app.py`
+6. Click **"Advanced settings"** and add your secrets (see below)
+7. Click **"Deploy!"** 🎉
 
 ### Secrets Format (Streamlit Cloud)
 
-In the Streamlit Cloud dashboard, add this to Secrets:
+In the Advanced Settings → Secrets section, add:
 
 ```toml
 GROQ_API_KEY = "your_groq_api_key_here"
 ```
+
+Your app will be live at: `https://[your-app-name].streamlit.app`
 
 ## Project Structure
 
