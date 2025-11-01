@@ -252,6 +252,13 @@ if st.button("🔍 Analyze Review", type="primary", use_container_width=True):
 # Footer
 st.markdown("---")
 st.markdown(
-    "<div style='text-align: center; color: gray;'>Built with ❤️ using Streamlit & LangGraph</div>",
+    """
+    <div style='text-align: center; color: gray;'>
+        Built with ❤️ using Streamlit & LangGraph<br>
+        <a href='https://amaanshaikh.netlify.app/' target='_blank' style='color: #4A90E2; text-decoration: none;'>
+            👨‍💻 View My Portfolio
+        </a>
+    </div>
+    """,
     unsafe_allow_html=True
 )
