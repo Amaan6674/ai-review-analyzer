@@ -84,7 +84,3 @@ GROQ_API_KEY = "your_groq_api_key_here"
 - **Groq**: Free AI inference (Llama 3.1)
 - **Streamlit**: Web interface
 - **LangChain**: LLM framework
-
-## License
-
-MIT
